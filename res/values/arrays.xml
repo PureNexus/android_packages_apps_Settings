@@ -700,6 +700,7 @@
         <item>bluetooth change</item>
         <item>auto start</item>
         <item>nfc change</item>
+        <item>data change</item>
     </string-array>
 
     <!-- User display names for app ops codes -->
@@ -758,6 +759,7 @@
         <item>Bluetooth change</item>
         <item>Auto start</item>
         <item>Nfc change</item>
+        <item>Data change</item>
     </string-array>
 
     <!-- Titles for the list of long press timeout options. -->
