@@ -38,6 +38,7 @@ import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
+import android.widget.Switch;
 import android.widget.TextView;
 
 import com.android.internal.logging.MetricsLogger;
@@ -160,29 +161,53 @@ public class AppOpsDetails extends InstrumentedFragment {
                         entry.getSwitchText(mState));
                 ((TextView)view.findViewById(R.id.op_time)).setText(
                         entry.getTimeText(res, true));
-                Spinner sw = (Spinner)view.findViewById(R.id.spinnerWidget);
+
+                Spinner sp = (Spinner) view.findViewById(R.id.spinnerWidget);
+                sp.setVisibility(View.INVISIBLE);
+                Switch sw = (Switch) view.findViewById(R.id.switchWidget);
+                sw.setVisibility(View.INVISIBLE);
+
                 final int switchOp = AppOpsManager.opToSwitch(firstOp.getOp());
                 int mode = mAppOps.checkOp(switchOp, entry.getPackageOps().getUid(),
                         entry.getPackageOps().getPackageName());
-                sw.setSelection(modeToPosition(mode));
-                sw.setOnItemSelectedListener(new Spinner.OnItemSelectedListener() {
+                sp.setSelection(modeToPosition(mode));
+                sp.setOnItemSelectedListener(new Spinner.OnItemSelectedListener() {
                     boolean firstMode = true;
 
                     @Override
-                    public void onItemSelected(AdapterView<?> parentView, View selectedItemView, int position, long id) {
-                        if(firstMode) {
+                    public void onItemSelected(AdapterView<?> parentView, View selectedItemView,
+                            int position, long id) {
+                        if (firstMode) {
                             firstMode = false;
                             return;
-                         }
+                        }
                         mAppOps.setMode(switchOp, entry.getPackageOps().getUid(),
                                 entry.getPackageOps().getPackageName(), positionToMode(position));
                     }
 
                     @Override
                     public void onNothingSelected(AdapterView<?> parentView) {
-                        // your code here
+                        // Do nothing
                     }
                 });
+
+                sw.setChecked(mAppOps.checkOp(switchOp, entry.getPackageOps()
+                        .getUid(), entry.getPackageOps().getPackageName()) == AppOpsManager.MODE_ALLOWED);
+                sw.setOnCheckedChangeListener(new Switch.OnCheckedChangeListener() {
+                    public void onCheckedChanged(CompoundButton buttonView,
+                            boolean isChecked) {
+                        mAppOps.setMode(switchOp, entry.getPackageOps()
+                                .getUid(), entry.getPackageOps()
+                                .getPackageName(),
+                                isChecked ? AppOpsManager.MODE_ALLOWED
+                                        : AppOpsManager.MODE_IGNORED);
+                    }
+                });
+                if (AppOpsManager.isStrictOp(switchOp)) {
+                    sp.setVisibility(View.VISIBLE);
+                } else {
+                    sw.setVisibility(View.VISIBLE);
+                }
             }
         }
 
