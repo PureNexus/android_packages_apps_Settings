@@ -108,6 +108,14 @@
     <string name="vendor_version">Vendor version</string>
     <string name="vendor_version_default">Unknown</string>
     <!-- Build date -->
+    <!-- UBER GCC version info -->
+    <string name="uber_android">Android toolchain</string>
+    <string name="uber_android_default">Unknown</string>
+    <string name="uber_kernel">Kernel toolchain</string>
+    <string name="uber_kernel_default">Unknown</string>
+    <!-- UBER GCC build flags info -->
+    <string name="uber_flags">Build Flags</string>
+    <string name="uber_flags_default">None</string>
     <string name="build_date">Build date</string>
     <string name="build_date_default">2014-01-01-0000</string>
     <!-- Model Name -->
