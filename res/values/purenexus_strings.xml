@@ -160,6 +160,11 @@
     <string name="dashboard_tileview_dividers_title">Dashboard dividers</string>
     <string name="dashboard_tileview_dividers_summary">Hide dashboard tile dividers</string>
 
+<!-- Language & Input -->
+    <!-- Fullscreen Keyboard -->
+    <string name="disable_fullscreen_keyboard_title">Disable fullscreen keyboard</string>
+    <string name="disable_fullscreen_keyboard_summary">Landscape keyboard will never take up entire screen</string>
+
 <!-- Sound & Notification Settings -->
     <!-- Linked / unlinked notification volume -->
     <string name="link_volume_option_title">Link ring and notification volume</string>
