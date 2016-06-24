@@ -17,13 +17,6 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/about_settings">
 
-        <!-- PureNexus about -->
-        <PreferenceScreen
-            android:key="about_nexus"
-            android:fragment="com.android.settings.nexus.About"
-            android:title="@string/nexus_about"
-            android:summary="@string/nexus_about_summary" />
-
         <!-- Device status - launches activity -->
         <PreferenceScreen android:key="status_info"
                 android:title="@string/device_status"

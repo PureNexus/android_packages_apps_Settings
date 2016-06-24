@@ -91,27 +91,6 @@
     <string name="adb_over_network_warning">WARNING: When ADB over network is enabled, your phone is open for intrusions on all connected networks!\n\nOnly use this feature when you are connected on trusted networks.\n\nDo you really want to enable this function?</string>
 
 <!-- Device Info Settings -->
-    <!-- Nexus about -->
-    <string name="nexus_about">PureNexus info</string>
-    <string name="nexus_about_summary">Misc info about the rom, developer and contributors</string>
-    <string name="nexus_useful">Useful links</string>
-    <string name="nexus_updates">Pushbullet update notifications</string>
-    <string name="lead_dev">Lead Developer</string>
-    <string name="beans">BeansTown106</string>
-    <string name="beans_sum">Main PureNexus maintainer</string>
-    <string name="beans_twit">BeansTown\'s Twitter</string>
-    <string name="nexus_gplus">PureNexus Google+ community</string>
-    <string name="donate">Donate to support development</string>
-    <string name="contribute">Contributors</string>
-    <string name="devonte">Dwitherell</string>
-    <string name="devonte_sum">Coder/tweaker</string>
-    <string name="dhack">Dhacker29</string>
-    <string name="dhack_sum">Coder/maintainer</string>
-    <string name="daveya">DaveyAnnihalation</string>
-    <string name="gfx_sum">Graphics/icons</string>
-    <string name="surge">Surge1223</string>
-    <string name="bajasur">Bajasur83</string>
-    <string name="tweak_sum">Misc Tweaks</string>
     <!-- Nexus version -->
     <string name="nexus_version">PureNexus version</string>
     <string name="nexus_version_default">Unknown</string>
