@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Pure Nexus Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<!-- Battery Saver Settings -->
+    <!-- Disable Battery Saver Warning Color -->
+    <string name="battery_saver_color_title">Color de advertencia</string>
+    <string name="battery_saver_color_summary">Habilitar barra de estado y de navegación naranja cuando se activa el ahorro de batería</string>
+    
+<!-- Custom Settings -->    
+  <!-- Dashboard -->
+    <string name="header_category_custom">Control Avanzado</string>
+    <string name="supersu_title">SuperSU</string>
+    <string name="custom_settings_title">Ajustes de PureNexus</string>
+    <string name="bitsyko_layers">Layers Manager</string>
+    <string name="substratum_title">Substratum</string>
+  <!-- General strings -->
+    <string name="reset">Restablecer</string>
+    <string name="add">Añadir</string>
+    <string name="choose_app">Elegir aplicación</string>
+    <!-- Notification/Battery lights -->
+    <string name="edit_light_settings">Editar ajustes de luz</string>
+    <string name="pulse_speed_title">Duración y velocidad</string>
+    <string name="default_time">Normal</string>
+    <string name="custom_time">Personalizado</string>
+    <string name="dialog_delete_title">Eliminar</string>
+    <string name="dialog_delete_message">¿Eliminar el elemento seleccionado?</string>
+    <string name="pulse_length_always_on">Siempre encendida</string>
+    <string name="pulse_length_very_short">Muy corta</string>
+    <string name="pulse_length_short">Corta</string>
+    <string name="pulse_length_normal">Normal</string>
+    <string name="pulse_length_long">Larga</string>
+    <string name="pulse_length_very_long">Muy larga</string>
+    <string name="pulse_speed_very_fast">Muy rápida</string>
+    <string name="pulse_speed_fast">Rápida</string>
+    <string name="pulse_speed_normal">Normal</string>
+    <string name="pulse_speed_slow">Lenta</string>
+    <string name="pulse_speed_very_slow">Muy lenta</string>
+    <string name="battery_light_title">Indicador de batería</string>
+    <string name="battery_low_pulse_title">Parpadear con batería baja</string>
+    <string name="battery_light_list_title">Colores</string>
+    <string name="battery_light_low_color_title">Batería baja</string>
+    <string name="battery_light_medium_color_title">Cargando</string>
+    <string name="battery_light_full_color_title">Completamente cargado</string>
+    <string name="notification_light_title">Luz de notificación</string>
+    <string name="notification_light_general_title">General</string>
+    <string name="notification_light_applist_title">Aplicaciones</string>
+    <string name="notification_light_phonelist_title">Teléfono</string>
+    <string name="notification_light_use_custom">Usar valores personalizados</string>
+    <string name="notification_light_default_value">Por defecto</string>
+    <string name="notification_light_missed_call_title">Llamada perdida</string>
+    <string name="notification_light_voicemail_title">Buzón de voz</string>
+    <string name="allow_lights_title">Permitir luces de notificación</string>
+    <string name="notification_light_screen_on">Luces con la pantalla encendida</string>
+    <!-- Expanded desktop -->
+    <string name="power_menu_expanded_desktop">Escritorio extendido</string>
+    <string name="expanded_hide_nothing">Sin ocultar nada</string>
+    <string name="expanded_hide_status">Ocultar barra de estado</string>
+    <string name="expanded_hide_navigation">Ocultar la barra de navegación</string>
+    <string name="expanded_hide_both">Ocultar ambas</string>
+    <string name="expanded_nothing_to_show">Para añadir una configuración personalizada por aplicación para el estado extendido, establezca Activado para todos en la posición de apagado</string>
+    <string name="expanded_desktop_state">Estado extendido</string>
+    <string name="expanded_enabled_for_all">Activado para todos</string>
+    <string name="expanded_user_configurable">Configurable por el usuario</string>
+    <string name="expanded_desktop_style">Estilo del escritorio extendido</string>
+    <string name="expanded_desktop_style_description">Elije un valor por defecto para el estilo del escritorio extendido</string>
+    <string name="expanded_desktop_title">Opciones del escritorio extendido</string>
+
+<!-- Development Settings -->
+    <!-- Dev Options Enabled by Default -->
+    <string name="show_dev_already_enabled">No es necesario, las "Opciones de desarrollo" están habilitadas de forma predeterminada.</string>
+    <!-- ADB debugging notifications -->
+    <string name="enable_adb_custom">Depuración de Android</string>
+    <string name="enable_adb_summary_custom">Activar la interfaz de Android Debug Bridge (adb)</string>
+    <string name="adb_notify">Notificación de depuración</string>
+    <string name="adb_notify_summary">Mostrar una notificación cuando esté activada la depuración por USB o red</string>
+    <string name="adb_over_network">ADB sobre red</string>
+    <string name="adb_over_network_summary">Activar la depuración TCP/IP sobre las interfaces de red (Wi\u2011Fi, redes USB). Esta configuración se restablece al reiniciar el dispositivo</string>
+    <string name="adb_over_network_warning">ADVERTENCIA: Cuando ADB sobre red está activado, el dispositivo está abierto para intrusiones en todas las redes conectadas.\n\nUtiliza esta función solamente cuando estés conectado a redes de confianza.\n\n¿Realmente deseas activar esta función?</string>
+
+<!-- Device Info Settings -->
+    <!-- Nexus version -->
+    <string name="nexus_version">Versión de PureNexus</string>
+    <string name="nexus_version_default">Desconocida</string>
+    <!-- Build date -->
+    <string name="build_date">Fecha de compilación</string>
+    <string name="build_date_default">2014-01-01-0000</string>
+    <!-- Model Name -->
+    <string name="model_name">Nombre del modelo</string>
+
+<!-- Display Settings -->
+    <!-- Doze pulse options -->
+    <string name="summary_doze_enabled">Activado</string>
+    <string name="summary_doze_disabled">Desactivado</string>
+    <string name="doze_overwrite_value_title">sobrescribir valores</string>
+    <string name="doze_overwrite_value_summary">Permitir sobrescribir el valor por defecto con la configuración de usuario</string>
+    <string name="doze_pulse_title">Ajustes configurables de usuario</string>
+    <string name="doze_pulse_duration_in_title">Desvanecimiento de entrada</string>
+    <string name="doze_pulse_duration_in_summary"></string>
+    <string name="doze_pulse_duration_visible_title">Duración visible</string>
+    <string name="doze_pulse_duration_visible_summary"></string>
+    <string name="doze_pulse_duration_out_title">Desvanecimiento de salida</string>
+    <string name="doze_pulse_duration_out_summary"></string>
+    <string name="doze_trigger_pickup_title">Activador de gesto de recogida</string>
+    <string name="doze_trigger_pickup_summary_on">La visualización ambiental se activará por los eventos del sensor de gestos</string>
+    <string name="doze_trigger_pickup_summary_off">El sensor de gestos de recogida no será utilizado para accionar el mecanismo</string>
+    <string name="doze_trigger_notification_title">Activador de notificaciones</string>
+    <string name="doze_trigger_notification_summary_on">La visualización ambiental se activará por las notificaciones</string>
+    <string name="doze_trigger_notification_summary_off">Las notificaciones no se utilizarán como activador</string>
+    <string name="doze_brightness_level_title">Nivel de brillo</string>
+    <string name="onehundred_ms">100 ms</string>
+    <string name="twofifty_ms">250 ms</string>
+    <string name="fivehundred_ms_default">500 ms (por defecto)</string>
+    <string name="sevenfifty_ms">750 ms</string>
+    <string name="one_second">1 s</string>
+    <string name="onehalf_second">1.5 s</string>
+    <string name="two_second">2 s</string>
+    <string name="twohalf_second">2.5 s</string>
+    <string name="three_second_default">3 s (por defecto)</string>
+    <string name="threehalf_second">3.5 s</string>
+    <string name="four_second">4 s</string>
+    <string name="fourhalf_second">4.5 s</string>
+    <string name="five_second">5 s</string>
+    <!-- Font size sample text -->
+    <string name="font_size_sample">Muestra</string>
+    <!-- Rotation Modes  -->
+    <string name="display_rotation_title">Rotación</string>
+    <string name="display_rotation_disabled">Desactivada</string>
+    <string name="display_rotation_unit">grados</string>
+    <string name="display_lockscreen_rotation_title">Girar pantalla de bloqueo</string>
+    <string name="display_rotation_category_title">Modos de rotación</string>
+    <string name="display_rotation_0_title">0 grados</string>
+    <string name="display_rotation_90_title">90 grados</string>
+    <string name="display_rotation_180_title">180 grados</string>
+    <string name="display_rotation_270_title">270 grados</string>
+    <!-- Dashboard settings -->
+    <string name="dashboard_category">Panel de ajustes</string>
+    <string name="dashboard_columns_title">Columnas del panel</string>
+    <string name="dashboard_columns_summary">Cambiar el número de columnas que aparecen en el panel de ajustes</string>
+    <string name="dashboard_columns_dialog_title">Seleccionar numero de columnas del panel de ajustes</string>
+    <string name="dashboard_columns_one">Una</string>
+    <string name="dashboard_columns_two">Dos</string>
+    <string name="dashboard_columns_three">Tres</string>
+    <string name="dashboard_tileview_double_lines_title">Vista del título</string>
+    <string name="dashboard_tileview_double_lines_summary">Ver título de ajuste en 2 líneas</string>
+    <string name="dashboard_tileview_dividers_title">Divisor de ajustes</string>
+    <string name="dashboard_tileview_dividers_summary">Ocultar divisor de ajustes</string>
+
+<!-- Sound & Notification Settings -->
+    <!-- Linked / unlinked notification volume -->
+    <string name="link_volume_option_title">Enlazar volumen de llamada y notificaciones</string>
+    <string name="notification_volume_option_title">Volumen de notificaciones</string>
+    <string name="ring_notification_volume_option_title">Volumen de llamada y notificaciones</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
+    <string name="increasing_ring_min_volume_title">Start volume</string>
+    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+    <!-- Keyguard notifications options -->
+    <string name="app_notification_show_on_keyguard_title">Mostrar en la pantalla de bloqueo</string>
+    <string name="app_notification_show_on_keyguard_summary">Mostrar las notificaciones de esta aplicación en la pantalla de bloqueo</string>
+    <string name="app_notification_no_ongoing_on_keyguard_title">Desactivar en la pantalla de bloqueo</string>
+    <string name="app_notification_no_ongoing_on_keyguard_summary">No mostrar notificaciones de esta aplicación en la pantalla de bloqueo</string>
+
+<!-- Security Settings -->
+    <!-- Blacklist preferences -->
+    <string name="app_security_title">Seguridad en aplicaciones</string>
+    <string name="blacklist_title">Lista de contactos bloqueados</string>
+    <string name="blacklist_edit_dialog_title">Editar número de teléfono bloqueado</string>
+    <string name="blacklist_prefs">Ajustes</string>
+    <string name="blacklist_button_delete">Eliminar</string>
+    <string name="blacklist_empty_text">No hay números en la lista de números bloqueados. Añade una entrada tocando el botón (+).</string>
+    <string name="blacklist_disabled_empty_text">Activa la lista de números bloqueados para evitar que te llamen o manden mensajes.</string>
+    <string name="blacklist_summary_disabled">Desactivada</string>
+    <string name="blacklist_summary">No recibirás llamadas ni mensajes de los números incluidos en la lista de números bloqueados</string>
+    <string name="blacklist_notify">Mostrar notificación</string>
+    <string name="blacklist_private_numbers_title">Números privados</string>
+    <string name="blacklist_private_numbers_summary_disabled">No bloquear llamadas de números privados</string>
+    <string name="blacklist_private_numbers_summary">Bloquear <xliff:g id="type">%s</xliff:g> de números privados</string>
+    <string name="blacklist_unknown_numbers_title">Números desconocidos</string>
+    <string name="blacklist_unknown_numbers_summary_disabled">No bloquear llamadas o mensajes de números desconocidos</string>
+    <string name="blacklist_unknown_numbers_summary">Bloquear <xliff:g id="type">%s</xliff:g> de números desconocidos</string>
+    <string name="blacklist_summary_type_calls_only">llamadas</string>
+    <string name="blacklist_summary_type_messages_only">mensajes</string>
+    <string name="blacklist_summary_type_calls_and_messages">llamadas y mensajes</string>
+    <string name="blacklist_regex_title">Permitir comodines</string>
+    <string name="blacklist_regex_summary">Usar . como comodín y * para repetición. Por ejemplo 123.* bloqueará números que comiencen con 123 y .*123.* bloqueará números que contengan 123</string>
+    <string name="blacklist_policy_block_calls">Bloquear llamadas entrantes</string>
+    <string name="blacklist_policy_block_messages">Bloquear mensajes entrantes</string>
+    <string name="blacklist_bad_number_add">No se puede añadir el número erróneo a la lista negra de contactos</string>
+
+    <!-- Blacklist management -->
+    <string name="remove_blacklist_number_title">Eliminar número</string>
+    <string name="remove_blacklist_entry">¿Quiere eliminar este número de la lista negra?</string>
+    <string name="select_contact">Seleccionar contacto</string>
+</resources>
