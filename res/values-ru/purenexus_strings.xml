@@ -15,6 +15,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Application Settings -->
+  <!-- App details: open play store link if app is user installed -->
+  <string name="app_play_store">Google Play</string>
   <!-- Battery Saver Settings -->
   <!-- Disable Battery Saver Warning Color -->
   <string name="battery_saver_color_title">Цвет предупреждения</string>
@@ -115,6 +118,9 @@
   <!-- Nexus version -->
   <string name="nexus_version">Версия Pure Nexus</string>
   <string name="nexus_version_default">Неизвестно</string>
+  <!-- Vendor version -->
+  <string name="vendor_version">Vendor version</string>
+  <string name="vendor_version_default">Unknown</string>
   <!-- Build date -->
   <string name="build_date">Дата сборки</string>
   <string name="build_date_default">01-01-2014-0000</string>
@@ -192,6 +198,8 @@
   <string name="app_notification_show_on_keyguard_summary">Показывать уведомления этого приложения на экране блокировки</string>
   <string name="app_notification_no_ongoing_on_keyguard_title">Постоянные уведомления</string>
   <string name="app_notification_no_ongoing_on_keyguard_summary">Никогда не показывать постоянные уведомления от этого приложения на экране блокировки</string>
+  <!-- Volume settings - Volume adjustment sound -->
+  <string name="volume_adjust_sounds_title">Volume adjustment sounds</string>
   <!-- Security Settings -->
   <!-- App ops permissions -->
   <string name="app_ops_permissions_allowed">Разрешено</string>
@@ -256,12 +264,12 @@
   <string name="app_ops_summaries_write_wallpaper">изменение обоев</string>
   <string name="app_ops_summaries_assist_structure">Структура ассистента</string>
   <string name="app_ops_summaries_assist_screenshot">Использовать скриншот</string>
-  <string name="app_ops_summaries_read_phone_state">read phone state</string>
+  <string name="app_ops_summaries_read_phone_state">Прочитать состояние телефона</string>
   <string name="app_ops_summaries_add_voicemail">добавить голосовое сообщение</string>
   <string name="app_ops_summaries_use_sip">Использовать SIP</string>
   <string name="app_ops_summaries_make_call">сделать вызов</string>
   <string name="app_ops_summaries_use_fingerprint">Использовать отпечаток пальца</string>
-  <string name="app_ops_summaries_use_body_sensors">use body sensors</string>
+  <string name="app_ops_summaries_use_body_sensors">Датчик тела</string>
   <string name="app_ops_summaries_read_cell_broadcasts">Сообщения сети</string>
   <string name="app_ops_summaries_mock_location">Ваше местоположение</string>
   <string name="app_ops_summaries_read_external_storage">прочитать данные с внешнего накопителя</string>
@@ -289,25 +297,25 @@
   <string name="app_ops_labels_cell_scan">Сканирование сети</string>
   <string name="app_ops_labels_call_phone">Телефонный звонок</string>
   <string name="app_ops_labels_read_sms">Чтение SMS</string>
-  <string name="app_ops_labels_write_sms">Write SMS</string>
-  <string name="app_ops_labels_receive_sms">Receive SMS</string>
-  <string name="app_ops_labels_receive_emergency_sms">Receive emergency SMS</string>
-  <string name="app_ops_labels_receive_mms">Receive MMS</string>
-  <string name="app_ops_labels_receive_wap_push">Receive WAP push</string>
-  <string name="app_ops_labels_send_sms">Send SMS</string>
-  <string name="app_ops_labels_read_icc_sms">Read ICC SMS</string>
-  <string name="app_ops_labels_write_icc_sms">Write ICC SMS</string>
-  <string name="app_ops_labels_modify_settings">Modify settings</string>
-  <string name="app_ops_labels_draw_on_top">Draw on top</string>
-  <string name="app_ops_labels_access_notifications">Access notifications</string>
+  <string name="app_ops_labels_write_sms">Создание SMS</string>
+  <string name="app_ops_labels_receive_sms">Получение SMS</string>
+  <string name="app_ops_labels_receive_emergency_sms">Получение экстренных SMS</string>
+  <string name="app_ops_labels_receive_mms">Получение MMS</string>
+  <string name="app_ops_labels_receive_wap_push">Получение сообщений WAP-push</string>
+  <string name="app_ops_labels_send_sms">Отправить SMS</string>
+  <string name="app_ops_labels_read_icc_sms">Чтение SMS с SIM-карты</string>
+  <string name="app_ops_labels_write_icc_sms">Запись SMS на SIM-карту</string>
+  <string name="app_ops_labels_modify_settings">Изменение настроек</string>
+  <string name="app_ops_labels_draw_on_top">Отображение поверх других элементов</string>
+  <string name="app_ops_labels_access_notifications">Доступ к уведомлениям</string>
   <string name="app_ops_labels_camera">Камера</string>
   <string name="app_ops_labels_record_audio">Запись аудио</string>
   <string name="app_ops_labels_play_audio">Воспроизведение аудио</string>
   <string name="app_ops_labels_read_clipboard">чтение буфера обмена</string>
   <string name="app_ops_labels_modify_clipboard">Изменение буфера обмена</string>
   <string name="app_ops_labels_media_buttons">Кнопки мультимедиа</string>
-  <string name="app_ops_labels_audio_focus">Audio focus</string>
-  <string name="app_ops_labels_master_volume">Master volume</string>
+  <string name="app_ops_labels_audio_focus">Аудиофокус</string>
+  <string name="app_ops_labels_master_volume">Общая громкость</string>
   <string name="app_ops_labels_voice_volume">Громкость при разговоре</string>
   <string name="app_ops_labels_ring_volume">Громкость звонка</string>
   <string name="app_ops_labels_media_volume">Громкость мультимедиа</string>
@@ -317,31 +325,31 @@
   <string name="app_ops_labels_keep_awake">Активный режим</string>
   <string name="app_ops_labels_monitor_location">Отслеживание местоположения</string>
   <string name="app_ops_labels_monitor_high_power_location">Отслеживание точного местоположения</string>
-  <string name="app_ops_labels_get_usage_stats">Get usage stats</string>
+  <string name="app_ops_labels_get_usage_stats">Получить статистику использования</string>
   <string name="app_ops_labels_mute_unmute_microphone">Выкл/вкл микрофон</string>
   <string name="app_ops_labels_toast_window">Отображать всплывающие уведомления</string>
   <string name="app_ops_labels_project_media">Трансляция контента</string>
   <string name="app_ops_labels_activate_vpn">Активация VPN</string>
   <string name="app_ops_labels_write_wallpaper">Установка обоев</string>
-  <string name="app_ops_labels_assist_structure">Assist structure</string>
-  <string name="app_ops_labels_assist_screenshot">Assist screenshot</string>
-  <string name="app_ops_labels_read_phone_state">Read phone state</string>
-  <string name="app_ops_labels_add_voicemail">Add voicemail</string>
-  <string name="app_ops_labels_use_sip">Use SIP</string>
-  <string name="app_ops_labels_make_call">Make call</string>
+  <string name="app_ops_labels_assist_structure">Структура ассистента</string>
+  <string name="app_ops_labels_assist_screenshot">Использовать скриншот</string>
+  <string name="app_ops_labels_read_phone_state">Прочитать состояние телефона</string>
+  <string name="app_ops_labels_add_voicemail">Добавить голосовую почту</string>
+  <string name="app_ops_labels_use_sip">Использовать SIP</string>
+  <string name="app_ops_labels_make_call">Позвонить</string>
   <string name="app_ops_labels_use_fingerprint">Использовать отпечаток пальца</string>
-  <string name="app_ops_labels_use_body_sensors">Use body sensors</string>
-  <string name="app_ops_labels_read_cell_broadcasts">Read cell broadcasts</string>
-  <string name="app_ops_labels_mock_location">Mock location</string>
-  <string name="app_ops_labels_read_external_storage">Read external storage</string>
-  <string name="app_ops_labels_write_external_storage">Write to external storage</string>
-  <string name="app_ops_labels_turn_screen_on">Turn screen on</string>
-  <string name="app_ops_labels_get_accounts">Get accounts</string>
-  <string name="app_ops_labels_toggle_wifi">Toggle Wi-Fi</string>
-  <string name="app_ops_labels_toggle_bluetooth">Toggle bluetooth</string>
-  <string name="app_ops_labels_start_at_boot">Start at boot</string>
-  <string name="app_ops_labels_toggle_nfc">Toggle NFC</string>
-  <string name="app_ops_labels_toggle_mobile_data">Toggle cellular data</string>
+  <string name="app_ops_labels_use_body_sensors">Использовать нательные датчики</string>
+  <string name="app_ops_labels_read_cell_broadcasts">Прочитать сообщения оповещения населения</string>
+  <string name="app_ops_labels_mock_location">Предоставить фиктивное местоположение</string>
+  <string name="app_ops_labels_read_external_storage">Прочитать данные с внешнего накопителя</string>
+  <string name="app_ops_labels_write_external_storage">Записать на внешний накопитель</string>
+  <string name="app_ops_labels_turn_screen_on">Включать экран</string>
+  <string name="app_ops_labels_get_accounts">Доступ к аккаунтам</string>
+  <string name="app_ops_labels_toggle_wifi">Переключать Wi-Fi</string>
+  <string name="app_ops_labels_toggle_bluetooth">Переключать bluetooth</string>
+  <string name="app_ops_labels_start_at_boot">Запускать при загрузке</string>
+  <string name="app_ops_labels_toggle_nfc">Переключить состояние модуля NFC</string>
+  <string name="app_ops_labels_toggle_mobile_data">Переключить состояние мобильного интернета</string>
   <!-- Blacklist preferences -->
   <string name="app_security_title">Конфиденциальность</string>
   <string name="blacklist_title">Черный список</string>

@@ -15,6 +15,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Application Settings -->
+  <!-- App details: open play store link if app is user installed -->
+  <string name="app_play_store">Google Play</string>
   <!-- Battery Saver Settings -->
   <!-- Disable Battery Saver Warning Color -->
   <string name="battery_saver_color_title">Uyarı rengi</string>
@@ -115,6 +118,9 @@
   <!-- Nexus version -->
   <string name="nexus_version">PureNexus versiyonu</string>
   <string name="nexus_version_default">Bilinmiyor</string>
+  <!-- Vendor version -->
+  <string name="vendor_version">Vendor version</string>
+  <string name="vendor_version_default">Unknown</string>
   <!-- Build date -->
   <string name="build_date">Oluşturulma tarihi</string>
   <string name="build_date_default">2014-01-01-0000</string>
@@ -164,7 +170,7 @@
   <string name="display_rotation_270_title">270 derece</string>
   <!-- Dashboard settings -->
   <string name="dashboard_category">Kontrol paneli ayarları</string>
-  <string name="dashboard_columns_title">Ön panel sütunları</string>
+  <string name="dashboard_columns_title">Kontrol paneli sütunları</string>
   <string name="dashboard_columns_summary">Kontrol panelinin görüntülenen sütunlarının sayısını değiştirme</string>
   <string name="dashboard_columns_dialog_title">Kontrol paneli sütunlarını seç</string>
   <string name="dashboard_columns_one">Bir</string>
@@ -192,6 +198,8 @@
   <string name="app_notification_show_on_keyguard_summary">Kilit ekranında bu uygulamadan gelen bildirimleri göster</string>
   <string name="app_notification_no_ongoing_on_keyguard_title">Kilitli olduğunda gizle</string>
   <string name="app_notification_no_ongoing_on_keyguard_summary">Kilit ekranında bu uygulamadan gelen bildirimleri asla gösterme</string>
+  <!-- Volume settings - Volume adjustment sound -->
+  <string name="volume_adjust_sounds_title">Volume adjustment sounds</string>
   <!-- Security Settings -->
   <!-- App ops permissions -->
   <string name="app_ops_permissions_allowed">İzin verilen</string>

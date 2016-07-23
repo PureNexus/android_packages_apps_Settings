@@ -15,6 +15,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Application Settings -->
+  <!-- App details: open play store link if app is user installed -->
+  <string name="app_play_store">Google Play</string>
   <!-- Battery Saver Settings -->
   <!-- Disable Battery Saver Warning Color -->
   <string name="battery_saver_color_title">Varningsfärg</string>
@@ -115,6 +118,9 @@
   <!-- Nexus version -->
   <string name="nexus_version">PureNexus version</string>
   <string name="nexus_version_default">Okänd</string>
+  <!-- Vendor version -->
+  <string name="vendor_version">Vendor version</string>
+  <string name="vendor_version_default">Unknown</string>
   <!-- Build date -->
   <string name="build_date">Byggdatum</string>
   <string name="build_date_default">2014-01-01-0000</string>
@@ -192,6 +198,8 @@
   <string name="app_notification_show_on_keyguard_summary">Show notifications from this app on the lockscreen</string>
   <string name="app_notification_no_ongoing_on_keyguard_title">Disable ongoing on lockscreen</string>
   <string name="app_notification_no_ongoing_on_keyguard_summary">Never show ongoing notifications from this app on the lockscreen</string>
+  <!-- Volume settings - Volume adjustment sound -->
+  <string name="volume_adjust_sounds_title">Volume adjustment sounds</string>
   <!-- Security Settings -->
   <!-- App ops permissions -->
   <string name="app_ops_permissions_allowed">Allowed</string>

@@ -15,6 +15,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Application Settings -->
+  <!-- App details: open play store link if app is user installed -->
+  <string name="app_play_store">Google Play</string>
   <!-- Battery Saver Settings -->
   <!-- Disable Battery Saver Warning Color -->
   <string name="battery_saver_color_title">경고 색상</string>
@@ -115,6 +118,9 @@
   <!-- Nexus version -->
   <string name="nexus_version">퓨어넥서스 버전</string>
   <string name="nexus_version_default">알 수 없음</string>
+  <!-- Vendor version -->
+  <string name="vendor_version">Vendor version</string>
+  <string name="vendor_version_default">Unknown</string>
   <!-- Build date -->
   <string name="build_date">빌드 날짜</string>
   <string name="build_date_default">2014-01-01-0000</string>
@@ -192,6 +198,8 @@
   <string name="app_notification_show_on_keyguard_summary">이 앱으로부터의 알림을 잠금 화면에 표시합니다</string>
   <string name="app_notification_no_ongoing_on_keyguard_title">잠금 화면에 진행중인 알림 비활상화</string>
   <string name="app_notification_no_ongoing_on_keyguard_summary">이 앱으로부터의 진행중인 알림을 잠금화면에 절대 보여주지 않습니다</string>
+  <!-- Volume settings - Volume adjustment sound -->
+  <string name="volume_adjust_sounds_title">Volume adjustment sounds</string>
   <!-- Security Settings -->
   <!-- App ops permissions -->
   <string name="app_ops_permissions_allowed">허용됨</string>

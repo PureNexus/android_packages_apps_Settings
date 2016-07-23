@@ -15,6 +15,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Application Settings -->
+  <!-- App details: open play store link if app is user installed -->
+  <string name="app_play_store">Google Play</string>
   <!-- Battery Saver Settings -->
   <!-- Disable Battery Saver Warning Color -->
   <string name="battery_saver_color_title">Couleur d\'avertissement</string>
@@ -115,6 +118,9 @@
   <!-- Nexus version -->
   <string name="nexus_version">Version PureNexus</string>
   <string name="nexus_version_default">Inconnu</string>
+  <!-- Vendor version -->
+  <string name="vendor_version">Vendor version</string>
+  <string name="vendor_version_default">Unknown</string>
   <!-- Build date -->
   <string name="build_date">Date de compilation</string>
   <string name="build_date_default">2014-01-01-0000</string>
@@ -126,10 +132,10 @@
   <string name="summary_doze_disabled">Désactivé</string>
   <string name="doze_overwrite_value_title">Paramètres avancés</string>
   <string name="doze_overwrite_value_summary">Modifier les valeurs par défaut</string>
-  <string name="doze_pulse_title">Valeurs du mode Veille</string>
-  <string name="doze_pulse_duration_in_title">Délai d\'ouverture</string>
+  <string name="doze_pulse_title">Paramètres utilisateur configurables</string>
+  <string name="doze_pulse_duration_in_title">Délai d\'activation</string>
   <string name="doze_pulse_duration_visible_title">Durée d\'affichage</string>
-  <string name="doze_pulse_duration_out_title">Délai de fermeture</string>
+  <string name="doze_pulse_duration_out_title">Délai de désactivation</string>
   <string name="doze_trigger_pickup_title">Prise en main</string>
   <string name="doze_trigger_pickup_summary_on">Activer l\'écran lors de la prise en main de l\'appareil</string>
   <string name="doze_trigger_pickup_summary_off">Ne pas activer l\'écran lors de la prise en main de l\'appareil</string>
@@ -185,17 +191,19 @@
   <string name="ring_notification_volume_option_title">Volume de la sonnerie et des notifications</string>
   <!-- Increasing ring tone volume -->
   <string name="increasing_ring_volume_option_title">Sonnerie progressive</string>
-  <string name="increasing_ring_min_volume_title">Volume de démarrage</string>
+  <string name="increasing_ring_min_volume_title">Volume de départ</string>
   <string name="increasing_ring_ramp_up_time_title">Durée de progression</string>
   <!-- Keyguard notifications options -->
-  <string name="app_notification_show_on_keyguard_title">Écran de déverrouillage</string>
-  <string name="app_notification_show_on_keyguard_summary">Afficher les notifications de cette application sur l\'écran de déverrouillage</string>
+  <string name="app_notification_show_on_keyguard_title">Afficher sur l\'écran de verrouillage</string>
+  <string name="app_notification_show_on_keyguard_summary">Afficher les notifications de cette application sur l\'écran de verrouillage</string>
   <string name="app_notification_no_ongoing_on_keyguard_title">Notifications persistantes</string>
-  <string name="app_notification_no_ongoing_on_keyguard_summary">Ne pas afficher les notifications persistantes de cette application sur l\'écran de déverrouillage</string>
+  <string name="app_notification_no_ongoing_on_keyguard_summary">Ne pas afficher les notifications persistantes de cette application sur l\'écran de verrouillage</string>
+  <!-- Volume settings - Volume adjustment sound -->
+  <string name="volume_adjust_sounds_title">Volume adjustment sounds</string>
   <!-- Security Settings -->
   <!-- App ops permissions -->
-  <string name="app_ops_permissions_allowed">Autorisées</string>
-  <string name="app_ops_permissions_ignored">Ignorées</string>
+  <string name="app_ops_permissions_allowed">Autorisé</string>
+  <string name="app_ops_permissions_ignored">Ignoré</string>
   <string name="app_ops_permissions_always_ask">Toujours demander</string>
   <!-- Names of categories of app ops tabs -->
   <string name="app_ops_categories_location">Localisation</string>
@@ -315,7 +323,7 @@
   <string name="app_ops_labels_notification_volume">Volume des notifications</string>
   <string name="app_ops_labels_bluetooth_volume">Volume du Bluetooth</string>
   <string name="app_ops_labels_keep_awake">Maintenir activé</string>
-  <string name="app_ops_labels_monitor_location">Surveiller la position</string>
+  <string name="app_ops_labels_monitor_location">Surveiller la localisation</string>
   <string name="app_ops_labels_monitor_high_power_location">Surveiller la localisation haute précision</string>
   <string name="app_ops_labels_get_usage_stats">Voir les stats d\'utilisation</string>
   <string name="app_ops_labels_mute_unmute_microphone">Activer/désactiver le microphone</string>
