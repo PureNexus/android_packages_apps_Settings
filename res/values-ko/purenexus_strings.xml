@@ -16,6 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Application Settings -->
+  <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Substratum overlays</string>
+  <string name="menu_show_substratum">Show overlays</string>
+  <string name="menu_hide_substratum">Hide overlays</string>
   <!-- App details: open play store link if app is user installed -->
   <string name="app_play_store">Google Play</string>
   <!-- Battery Saver Settings -->
@@ -101,7 +105,7 @@
   <string name="nexus_updates">Pushbullet 업데이트 알림</string>
   <string name="lead_dev">리드 개발자</string>
   <string name="beans">BeansTown106</string>
-  <string name="beans_sum">주요 PureNexus 관리자</string>
+  <string name="beans_sum">메인 퓨어넥서스 보수자</string>
   <string name="beans_twit">BeansTown 트위터</string>
   <string name="nexus_gplus">퓨어넥서스 구글+ 커뮤니티</string>
   <string name="donate">개발을 지원 하기 위해 기부</string>
@@ -119,8 +123,8 @@
   <string name="nexus_version">퓨어넥서스 버전</string>
   <string name="nexus_version_default">알 수 없음</string>
   <!-- Vendor version -->
-  <string name="vendor_version">Vendor version</string>
-  <string name="vendor_version_default">Unknown</string>
+  <string name="vendor_version">벤더 버전</string>
+  <string name="vendor_version_default">알 수 없음</string>
   <!-- Build date -->
   <string name="build_date">빌드 날짜</string>
   <string name="build_date_default">2014-01-01-0000</string>
@@ -199,7 +203,7 @@
   <string name="app_notification_no_ongoing_on_keyguard_title">잠금 화면에 진행중인 알림 비활상화</string>
   <string name="app_notification_no_ongoing_on_keyguard_summary">이 앱으로부터의 진행중인 알림을 잠금화면에 절대 보여주지 않습니다</string>
   <!-- Volume settings - Volume adjustment sound -->
-  <string name="volume_adjust_sounds_title">Volume adjustment sounds</string>
+  <string name="volume_adjust_sounds_title">볼륨 조절 소리</string>
   <!-- Security Settings -->
   <!-- App ops permissions -->
   <string name="app_ops_permissions_allowed">허용됨</string>
@@ -379,4 +383,12 @@
   <string name="remove_blacklist_number_title">번호 삭제</string>
   <string name="remove_blacklist_entry">이 차단된 번호를 삭제하시겠습니까?</string>
   <string name="select_contact">연락처 선택</string>
+  <!-- Storage settings -->
+  <!-- Advanced storage settings -->
+  <string name="storage_advanced_titlebar">Advanced Storage</string>
+  <string name="storage_menu_advanced">Advanced</string>
+  <!-- USB data automatic unlock -->
+  <string name="usb_data_auto_unlock_title">Unlock USB data</string>
+  <string name="usb_data_auto_unlock_summary">Allow unlocked data access to your phone\'s storage through USB (MTP, PTP)</string>
+  <string name="usb_data_auto_unlock_warning_summary">Your device will establish unprotected connections, everytime you connect it to a PC. Secured lockscreens disable this option automatically.\n\nThis is still an experimental feature, use with caution.</string>
 </resources>

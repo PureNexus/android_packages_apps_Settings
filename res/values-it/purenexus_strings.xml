@@ -16,6 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Application Settings -->
+  <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Temi Substratum</string>
+  <string name="menu_show_substratum">Mostra temi</string>
+  <string name="menu_hide_substratum">Nascondi temi</string>
   <!-- App details: open play store link if app is user installed -->
   <string name="app_play_store">Google Play</string>
   <!-- Battery Saver Settings -->
@@ -119,8 +123,8 @@
   <string name="nexus_version">Versione PureNexus</string>
   <string name="nexus_version_default">Sconosciuto</string>
   <!-- Vendor version -->
-  <string name="vendor_version">Vendor version</string>
-  <string name="vendor_version_default">Unknown</string>
+  <string name="vendor_version">Versione produttore</string>
+  <string name="vendor_version_default">Sconosciuto</string>
   <!-- Build date -->
   <string name="build_date">Data build</string>
   <string name="build_date_default">2014-01-01-0000</string>
@@ -199,7 +203,7 @@
   <string name="app_notification_no_ongoing_on_keyguard_title">Disabilita nella schermata di blocco</string>
   <string name="app_notification_no_ongoing_on_keyguard_summary">Non mostrare mai le notifiche persistenti di questa app nella schermata di blocco</string>
   <!-- Volume settings - Volume adjustment sound -->
-  <string name="volume_adjust_sounds_title">Volume adjustment sounds</string>
+  <string name="volume_adjust_sounds_title">Suoni di regolazione volume</string>
   <!-- Security Settings -->
   <!-- App ops permissions -->
   <string name="app_ops_permissions_allowed">Consentito</string>
@@ -379,4 +383,12 @@
   <string name="remove_blacklist_number_title">Rimuovi numero</string>
   <string name="remove_blacklist_entry">Vuoi rimuovere questa voce dalla blacklist?</string>
   <string name="select_contact">Seleziona contatto</string>
+  <!-- Storage settings -->
+  <!-- Advanced storage settings -->
+  <string name="storage_advanced_titlebar">Archiviazione avanzata</string>
+  <string name="storage_menu_advanced">Avanzato</string>
+  <!-- USB data automatic unlock -->
+  <string name="usb_data_auto_unlock_title">Sblocca dati USB</string>
+  <string name="usb_data_auto_unlock_summary">Consentire l\'accesso all\'archiviazione dati del telefono tramite USB (MTP, PTP)</string>
+  <string name="usb_data_auto_unlock_warning_summary">Il dispositivo rileverà le connessioni non protette ogni volta che si collega ad un PC. Le schermate di blocco sicure disabiliteranno questa opzione automaticamente.\n\nQuesta è una funzione sperimentale, usare con cautela.</string>
 </resources>

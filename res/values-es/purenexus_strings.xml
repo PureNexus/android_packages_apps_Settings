@@ -14,9 +14,14 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Application Settings -->
-  <!-- App details: open play store link if app is user installed -->
-    <string name="app_play_store">Google Play</string>
+<!-- Application Settings -->
+   <!-- Manage applications: show substratum overlays -->
+   <string name="filter_substratum_apps">Substratum overlays</string>
+   <string name="menu_show_substratum">Show overlays</string>
+   <string name="menu_hide_substratum">Hide overlays</string>
+   <!-- App details: open play store link if app is user installed -->
+   <string name="app_play_store">Google Play</string>
+
 <!-- Battery Saver Settings -->
     <!-- Disable Battery Saver Warning Color -->
     <string name="battery_saver_color_title">Color de advertencia</string>
@@ -92,11 +97,14 @@
     <string name="adb_over_network">ADB sobre red</string>
     <string name="adb_over_network_summary">Activar la depuración TCP/IP sobre las interfaces de red (Wi\u2011Fi, redes USB). Esta configuración se restablece al reiniciar el dispositivo</string>
     <string name="adb_over_network_warning">ADVERTENCIA: Cuando ADB sobre red está activado, el dispositivo está abierto para intrusiones en todas las redes conectadas.\n\nUtiliza esta función solamente cuando estés conectado a redes de confianza.\n\n¿Realmente deseas activar esta función?</string>
+    <!-- Hostname setting -->
+    <string name="device_hostname">Device hostname</string>
 
 <!-- Device Info Settings -->
     <!-- Nexus version -->
     <string name="nexus_version">Versión de PureNexus</string>
     <string name="nexus_version_default">Desconocida</string>
+    <!-- Vendor version -->
     <string name="vendor_version">Vendor version</string>
     <string name="vendor_version_default">Unknown</string>
     <!-- Build date -->
@@ -369,4 +377,13 @@
     <string name="remove_blacklist_number_title">Eliminar número</string>
     <string name="remove_blacklist_entry">¿Quiere eliminar este número de la lista negra?</string>
     <string name="select_contact">Seleccionar contacto</string>
+
+<!-- Storage settings -->
+   <!-- Advanced storage settings -->
+   <string name="storage_advanced_titlebar">Advanced Storage</string>
+   <string name="storage_menu_advanced">Advanced</string>
+   <!-- USB data automatic unlock -->
+   <string name="usb_data_auto_unlock_title">Unlock USB data</string>
+   <string name="usb_data_auto_unlock_summary">Allow unlocked data access to your phone\'s storage through USB (MTP, PTP)</string>
+   <string name="usb_data_auto_unlock_warning_summary">Your device will establish unprotected connections, everytime you connect it to a PC. Secured lockscreens disable this option automatically.\n\nThis is still an experimental feature, use with caution.</string>
 </resources>

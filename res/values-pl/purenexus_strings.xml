@@ -16,6 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Application Settings -->
+  <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Nakładki Substratum</string>
+  <string name="menu_show_substratum">Pokaż nakładki</string>
+  <string name="menu_hide_substratum">Ukryj nakładki</string>
   <!-- App details: open play store link if app is user installed -->
   <string name="app_play_store">Google Play</string>
   <!-- Battery Saver Settings -->
@@ -119,8 +123,8 @@
   <string name="nexus_version">Wersja PureNexus</string>
   <string name="nexus_version_default">Nieznana wersja</string>
   <!-- Vendor version -->
-  <string name="vendor_version">Vendor version</string>
-  <string name="vendor_version_default">Unknown</string>
+  <string name="vendor_version">Wersja dostawcy</string>
+  <string name="vendor_version_default">Nieznany</string>
   <!-- Build date -->
   <string name="build_date">Data kompilacji</string>
   <string name="build_date_default">2014-01-01-0000</string>
@@ -199,7 +203,7 @@
   <string name="app_notification_no_ongoing_on_keyguard_title">Wyłącz trwałe na ekranie blokady</string>
   <string name="app_notification_no_ongoing_on_keyguard_summary">Nigdy nie pokazuj trwałych powiadomień z tej aplikacji na ekranie blokady</string>
   <!-- Volume settings - Volume adjustment sound -->
-  <string name="volume_adjust_sounds_title">Volume adjustment sounds</string>
+  <string name="volume_adjust_sounds_title">Regulacja głośności dźwięku</string>
   <!-- Security Settings -->
   <!-- App ops permissions -->
   <string name="app_ops_permissions_allowed">Zezwolone</string>
@@ -379,4 +383,12 @@
   <string name="remove_blacklist_number_title">Usuń numer</string>
   <string name="remove_blacklist_entry">Czy chcesz usunąć ten blokowany numer telefonu?</string>
   <string name="select_contact">Wybierz kontakt</string>
+  <!-- Storage settings -->
+  <!-- Advanced storage settings -->
+  <string name="storage_advanced_titlebar">Zaawansowane rozwiązania pamięci masowej</string>
+  <string name="storage_menu_advanced">Zaawansowane</string>
+  <!-- USB data automatic unlock -->
+  <string name="usb_data_auto_unlock_title">Odblokowanie danych USB</string>
+  <string name="usb_data_auto_unlock_summary">Zezwalaj odblokowanym danym na dostęp do pamięci telefonu poprzez USB (MTP, PTP)</string>
+  <string name="usb_data_auto_unlock_warning_summary">Urządzenie będzie ustanawiać niechronione połaczenie za każdym razem gdy podłaczysz je do komputera. Zabezpieczone ekrany blokady wyłacza tę opcję automatycznie.\n\n To jest nadal funkcja eksperymentalna, zależy zachować ostrożność.</string>
 </resources>

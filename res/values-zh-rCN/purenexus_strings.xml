@@ -16,6 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Application Settings -->
+  <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Substratum overlays</string>
+  <string name="menu_show_substratum">Show overlays</string>
+  <string name="menu_hide_substratum">Hide overlays</string>
   <!-- App details: open play store link if app is user installed -->
   <string name="app_play_store">Google Play</string>
   <!-- Battery Saver Settings -->
@@ -28,7 +32,7 @@
   <string name="supersu_title">SuperSU</string>
   <string name="custom_settings_title">PureNexus 设置</string>
   <string name="bitsyko_layers">层面主题管理器</string>
-  <string name="substratum_title">Substratum（主题APP）</string>
+  <string name="substratum_title">Substratum</string>
   <!-- General strings -->
   <string name="reset">重置</string>
   <string name="add">添加</string>
@@ -96,7 +100,7 @@
   <!-- Device Info Settings -->
   <!-- Nexus about -->
   <string name="nexus_about">PureNexus 信息</string>
-  <string name="nexus_about_summary">关于固件、开发者和贡献者的杂项信息</string>
+  <string name="nexus_about_summary">有关Rom、开发者和贡献者的其它信息</string>
   <string name="nexus_useful">有用的链接</string>
   <string name="nexus_updates">Pushbullet 更新通知</string>
   <string name="lead_dev">主要开发者</string>
@@ -114,18 +118,18 @@
   <string name="gfx_sum">图像/图标</string>
   <string name="surge">Surge1223</string>
   <string name="bajasur">Bajasur83</string>
-  <string name="tweak_sum">杂项调整</string>
+  <string name="tweak_sum">其它调整</string>
   <!-- Nexus version -->
   <string name="nexus_version">PureNexus 版本</string>
   <string name="nexus_version_default">未知</string>
   <!-- Vendor version -->
-  <string name="vendor_version">Vendor version</string>
-  <string name="vendor_version_default">Unknown</string>
+  <string name="vendor_version">供应商版本</string>
+  <string name="vendor_version_default">未知</string>
   <!-- Build date -->
   <string name="build_date">编译日期</string>
   <string name="build_date_default">2014-01-01-0000</string>
   <!-- Model Name -->
-  <string name="model_name">设备名称</string>
+  <string name="model_name">型号</string>
   <!-- Display Settings -->
   <!-- Doze pulse options -->
   <string name="summary_doze_enabled">启用</string>
@@ -150,12 +154,12 @@
   <string name="one_second">1 s</string>
   <string name="onehalf_second">1.5 s</string>
   <string name="two_second">2 s</string>
-  <string name="twohalf_second">2.5 s</string>
-  <string name="three_second_default">3 s (default)</string>
-  <string name="threehalf_second">3.5 s</string>
-  <string name="four_second">4 s</string>
-  <string name="fourhalf_second">4.5 s</string>
-  <string name="five_second">5 s</string>
+  <string name="twohalf_second">2.5 秒</string>
+  <string name="three_second_default">3 秒（默认值）</string>
+  <string name="threehalf_second">3.5 秒</string>
+  <string name="four_second">4 秒</string>
+  <string name="fourhalf_second">4.5 秒</string>
+  <string name="five_second">5 秒</string>
   <!-- Font size sample text -->
   <string name="font_size_sample">字体大小</string>
   <!-- Rotation Modes  -->
@@ -169,28 +173,28 @@
   <string name="display_rotation_180_title">180度</string>
   <string name="display_rotation_270_title">270度</string>
   <!-- Dashboard settings -->
-  <string name="dashboard_category">显示板的定制</string>
-  <string name="dashboard_columns_title">显示板列</string>
-  <string name="dashboard_columns_summary">更改仪表板中的列数</string>
-  <string name="dashboard_columns_dialog_title">选择仪表板列</string>
+  <string name="dashboard_category">设置面板设定</string>
+  <string name="dashboard_columns_title">设置面板列数</string>
+  <string name="dashboard_columns_summary">更改设置面板显示的列数</string>
+  <string name="dashboard_columns_dialog_title">选择设置面板列数</string>
   <string name="dashboard_columns_one">一列</string>
   <string name="dashboard_columns_two">两列</string>
   <string name="dashboard_columns_three">三列</string>
-  <string name="dashboard_tileview_double_lines_title">仪表板标题视图</string>
-  <string name="dashboard_tileview_double_lines_summary">显示仪表板的标题在 2 行</string>
-  <string name="dashboard_tileview_dividers_title">仪表板分隔线</string>
-  <string name="dashboard_tileview_dividers_summary">隐藏仪表板砖分隔线</string>
+  <string name="dashboard_tileview_double_lines_title">设置面板磁贴视图</string>
+  <string name="dashboard_tileview_double_lines_summary">设置面板磁贴的标题显示为2行</string>
+  <string name="dashboard_tileview_dividers_title">设置面板分隔线</string>
+  <string name="dashboard_tileview_dividers_summary">隐藏设置面板磁贴分隔线</string>
   <!-- Language & Input -->
   <!-- Fullscreen Keyboard -->
   <string name="disable_fullscreen_keyboard_title">禁用全屏键盘</string>
-  <string name="disable_fullscreen_keyboard_summary">横屏键盘将永远不会占用全部屏幕空间</string>
+  <string name="disable_fullscreen_keyboard_summary">横屏时键盘永远不会占用整个屏幕</string>
   <!-- Sound & Notification Settings -->
   <!-- Linked / unlinked notification volume -->
   <string name="link_volume_option_title">关联铃声和通知音量</string>
   <string name="notification_volume_option_title">通知音量</string>
   <string name="ring_notification_volume_option_title">铃声和通知音量</string>
   <!-- Increasing ring tone volume -->
-  <string name="increasing_ring_volume_option_title">渐强音量</string>
+  <string name="increasing_ring_volume_option_title">渐强的铃声音量</string>
   <string name="increasing_ring_min_volume_title">初始音量</string>
   <string name="increasing_ring_ramp_up_time_title">加速时间</string>
   <!-- Keyguard notifications options -->
@@ -199,7 +203,7 @@
   <string name="app_notification_no_ongoing_on_keyguard_title">在锁屏界面上禁用正在运行的通知</string>
   <string name="app_notification_no_ongoing_on_keyguard_summary">永远不在锁屏显示该应用正在进行的通知</string>
   <!-- Volume settings - Volume adjustment sound -->
-  <string name="volume_adjust_sounds_title">Volume adjustment sounds</string>
+  <string name="volume_adjust_sounds_title">音量调整提示音</string>
   <!-- Security Settings -->
   <!-- App ops permissions -->
   <string name="app_ops_permissions_allowed">允许</string>
@@ -224,7 +228,7 @@
   <string name="app_ops_summaries_read_calendar">读取日历</string>
   <string name="app_ops_summaries_modify_calendar">修改日历</string>
   <string name="app_ops_summaries_wifi_scan">WiFi 扫描</string>
-  <string name="app_ops_summaries_notification">通知 / 弹窗</string>
+  <string name="app_ops_summaries_notification">通知/气泡</string>
   <string name="app_ops_summaries_cell_scan">基站扫描</string>
   <string name="app_ops_summaries_call_phone">拨打电话</string>
   <string name="app_ops_summaries_read_sms">读取短信</string>
@@ -379,4 +383,12 @@
   <string name="remove_blacklist_number_title">移除号码</string>
   <string name="remove_blacklist_entry">您想要移除此黑名单号码吗？</string>
   <string name="select_contact">选择联系人</string>
+  <!-- Storage settings -->
+  <!-- Advanced storage settings -->
+  <string name="storage_advanced_titlebar">Advanced Storage</string>
+  <string name="storage_menu_advanced">Advanced</string>
+  <!-- USB data automatic unlock -->
+  <string name="usb_data_auto_unlock_title">Unlock USB data</string>
+  <string name="usb_data_auto_unlock_summary">Allow unlocked data access to your phone\'s storage through USB (MTP, PTP)</string>
+  <string name="usb_data_auto_unlock_warning_summary">Your device will establish unprotected connections, everytime you connect it to a PC. Secured lockscreens disable this option automatically.\n\nThis is still an experimental feature, use with caution.</string>
 </resources>

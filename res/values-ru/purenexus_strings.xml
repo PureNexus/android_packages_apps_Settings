@@ -16,6 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Application Settings -->
+  <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Слои Substratum</string>
+  <string name="menu_show_substratum">Показать слои</string>
+  <string name="menu_hide_substratum">Скрыть слои</string>
   <!-- App details: open play store link if app is user installed -->
   <string name="app_play_store">Google Play</string>
   <!-- Battery Saver Settings -->
@@ -119,8 +123,8 @@
   <string name="nexus_version">Версия Pure Nexus</string>
   <string name="nexus_version_default">Неизвестно</string>
   <!-- Vendor version -->
-  <string name="vendor_version">Vendor version</string>
-  <string name="vendor_version_default">Unknown</string>
+  <string name="vendor_version">Версия для разработчиков</string>
+  <string name="vendor_version_default">Неизвестно</string>
   <!-- Build date -->
   <string name="build_date">Дата сборки</string>
   <string name="build_date_default">01-01-2014-0000</string>
@@ -199,7 +203,7 @@
   <string name="app_notification_no_ongoing_on_keyguard_title">Постоянные уведомления</string>
   <string name="app_notification_no_ongoing_on_keyguard_summary">Никогда не показывать постоянные уведомления от этого приложения на экране блокировки</string>
   <!-- Volume settings - Volume adjustment sound -->
-  <string name="volume_adjust_sounds_title">Volume adjustment sounds</string>
+  <string name="volume_adjust_sounds_title">Звук при регулировке громкости</string>
   <!-- Security Settings -->
   <!-- App ops permissions -->
   <string name="app_ops_permissions_allowed">Разрешено</string>
@@ -379,4 +383,12 @@
   <string name="remove_blacklist_number_title">Удалить номер</string>
   <string name="remove_blacklist_entry">Вы действительно хотите удалить данный номер из чёрного списка?</string>
   <string name="select_contact">Выбрать контакт</string>
+  <!-- Storage settings -->
+  <!-- Advanced storage settings -->
+  <string name="storage_advanced_titlebar">Дополнительные настройки</string>
+  <string name="storage_menu_advanced">Дополнительные настройки</string>
+  <!-- USB data automatic unlock -->
+  <string name="usb_data_auto_unlock_title">Разблокировать доступ по USB</string>
+  <string name="usb_data_auto_unlock_summary">Разрешать передачу данных по USB (MTP, PTP)</string>
+  <string name="usb_data_auto_unlock_warning_summary">Соединение с ПК каждый раз будет создавать незащищенные соединения. Пароль на экране блокировки отключает эту функцию автоматически.\n\nЭто всё ещё экспериментальная функция, используйте с осторожностью.</string>
 </resources>
