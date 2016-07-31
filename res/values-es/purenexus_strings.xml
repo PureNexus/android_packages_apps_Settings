@@ -17,8 +17,8 @@
 <!-- Application Settings -->
    <!-- Manage applications: show substratum overlays -->
    <string name="filter_substratum_apps">Substratum overlays</string>
-   <string name="menu_show_substratum">Show overlays</string>
-   <string name="menu_hide_substratum">Hide overlays</string>
+   <string name="menu_show_substratum">Mostrar overlays</string>
+   <string name="menu_hide_substratum">Ocultar overlays</string>
    <!-- App details: open play store link if app is user installed -->
    <string name="app_play_store">Google Play</string>
 
@@ -105,8 +105,16 @@
     <string name="nexus_version">Versión de PureNexus</string>
     <string name="nexus_version_default">Desconocida</string>
     <!-- Vendor version -->
-    <string name="vendor_version">Vendor version</string>
-    <string name="vendor_version_default">Unknown</string>
+    <string name="vendor_version">Versión del Vendor</string>
+    <string name="vendor_version_default">Desconocida</string>
+    <!-- UBER GCC version info -->
+    <string name="uber_android">Android compilado con...</string>
+    <string name="uber_android_default">Desconocido</string>
+    <string name="uber_kernel">Kernel compilado con...</string>
+    <string name="uber_kernel_default">Desconocido</string>
+    <!-- UBER GCC build flags info -->
+    <string name="uber_flags">Flags de compilación</string>
+    <string name="uber_flags_default">Ninguno</string>
     <!-- Build date -->
     <string name="build_date">Fecha de compilación</string>
     <string name="build_date_default">2014-01-01-0000</string>
@@ -117,7 +125,7 @@
     <!-- Doze pulse options -->
     <string name="summary_doze_enabled">Activado</string>
     <string name="summary_doze_disabled">Desactivado</string>
-    <string name="doze_overwrite_value_title">sobrescribir valores</string>
+    <string name="doze_overwrite_value_title">Sobrescribir valores</string>
     <string name="doze_overwrite_value_summary">Permitir sobrescribir el valor por defecto con la configuración de usuario</string>
     <string name="doze_pulse_title">Ajustes configurables de usuario</string>
     <string name="doze_pulse_duration_in_title">Desvanecimiento de entrada</string>
@@ -147,7 +155,7 @@
     <string name="fourhalf_second">4.5 s</string>
     <string name="five_second">5 s</string>
     <!-- Font size sample text -->
-    <string name="font_size_sample">Muestra</string>
+    <string name="font_size_sample">Tamaño de la Fuente</string>
     <!-- Rotation Modes  -->
     <string name="display_rotation_title">Rotación</string>
     <string name="display_rotation_disabled">Desactivada</string>
@@ -380,10 +388,10 @@
 
 <!-- Storage settings -->
    <!-- Advanced storage settings -->
-   <string name="storage_advanced_titlebar">Advanced Storage</string>
-   <string name="storage_menu_advanced">Advanced</string>
+    <string name="storage_advanced_titlebar">Almacenamiento Avanzado</string>
+    <string name="storage_menu_advanced">Avanzado</string>
    <!-- USB data automatic unlock -->
-   <string name="usb_data_auto_unlock_title">Unlock USB data</string>
-   <string name="usb_data_auto_unlock_summary">Allow unlocked data access to your phone\'s storage through USB (MTP, PTP)</string>
-   <string name="usb_data_auto_unlock_warning_summary">Your device will establish unprotected connections, everytime you connect it to a PC. Secured lockscreens disable this option automatically.\n\nThis is still an experimental feature, use with caution.</string>
+    <string name="usb_data_auto_unlock_title">Desbloquear datos USB</string>
+    <string name="usb_data_auto_unlock_summary">Permitir el acceso de datos al almacenamiento del teléfono a través de USB (MTP, PTP)</string>
+    <string name="usb_data_auto_unlock_warning_summary">Tu dispositivo establecerá conexiones sin protección, cada vez que se conecte a un PC. Con pantalla de bloqueo segura se desactiva automaticamente esta opción.\n\nEsto sigue siendo una característica experimental, utilizar con precaución.</string>
 </resources>
