@@ -16,9 +16,9 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 <!-- Application Settings -->
    <!-- Manage applications: show substratum overlays -->
-   <string name="filter_substratum_apps">Substratum overlays</string>
-   <string name="menu_show_substratum">Mostrar overlays</string>
-   <string name="menu_hide_substratum">Ocultar overlays</string>
+   <string name="filter_substratum_apps">Capas superpuestas Substratum</string>
+   <string name="menu_show_substratum">Mostrar capas superpuestas</string>
+   <string name="menu_hide_substratum">Ocultar capas superpuestas</string>
    <!-- App details: open play store link if app is user installed -->
    <string name="app_play_store">Google Play</string>
 
@@ -105,7 +105,7 @@
     <string name="nexus_version">Versión de PureNexus</string>
     <string name="nexus_version_default">Desconocida</string>
     <!-- Vendor version -->
-    <string name="vendor_version">Versión del Vendor</string>
+    <string name="vendor_version">Versión de imagen de proveedor</string>
     <string name="vendor_version_default">Desconocida</string>
     <!-- UBER GCC version info -->
     <string name="uber_android">Android compilado con...</string>
@@ -120,6 +120,8 @@
     <string name="build_date_default">2014-01-01-0000</string>
     <!-- Model Name -->
     <string name="model_name">Nombre del modelo</string>
+    <!-- Phone info shortcut -->
+    <string name="device_info_title">Información del teléfono</string>
 
 <!-- Display Settings -->
     <!-- Doze pulse options -->
@@ -199,7 +201,18 @@
     <string name="app_notification_no_ongoing_on_keyguard_title">Desactivar en la pantalla de bloqueo</string>
     <string name="app_notification_no_ongoing_on_keyguard_summary">No mostrar notificaciones de esta aplicación en la pantalla de bloqueo</string>
     <!-- Volume settings - Volume adjustment sound -->
-    <string name="volume_adjust_sounds_title">Volume adjustment sounds</string>
+    <string name="volume_adjust_sounds_title">Sonidos de ajuste de volumen</string>
+    <!-- Category title for Charging sounds -->
+    <string name="power_notifications_category_title">Cargando sonidos</string>
+    <!-- Sound settings, Charging sounds enable/disable, setting check box label -->
+    <string name="power_notifications_enable_title">Activar</string>
+    <string name="power_notifications_enable_summary">Reproducir un sonido al conectar o desconectar el cargador</string>
+    <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
+    <string name="power_notifications_vibrate_title">Vibración</string>
+    <!-- Sound settings, Charging sounds ringtone selection, preference label -->
+    <string name="power_notifications_ringtone_title">Sonido de notificación</string>
+    <!-- Sound settings, charging sounds label for ringtone == none -->
+    <string name="power_notifications_ringtone_silent">Silencio</string>
 
 <!-- Security Settings -->
     <!-- App ops permissions -->
@@ -393,5 +406,5 @@
    <!-- USB data automatic unlock -->
     <string name="usb_data_auto_unlock_title">Desbloquear datos USB</string>
     <string name="usb_data_auto_unlock_summary">Permitir el acceso de datos al almacenamiento del teléfono a través de USB (MTP, PTP)</string>
-    <string name="usb_data_auto_unlock_warning_summary">Tu dispositivo establecerá conexiones sin protección, cada vez que se conecte a un PC. Con pantalla de bloqueo segura se desactiva automaticamente esta opción.\n\nEsto sigue siendo una característica experimental, utilizar con precaución.</string>
+    <string name="usb_data_auto_unlock_warning_summary">Su dispositivo establecerá conexiones sin protección cada vez que se conecte a una PC. Las pantallas de bloqueo seguro desactivan esta opción automáticamente.\n\nEsta función es todavía experimental, úsela con precaución.</string>
 </resources>
