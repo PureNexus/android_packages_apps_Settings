@@ -17,9 +17,9 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Application Settings -->
   <!-- Manage applications: show substratum overlays -->
-  <string name="filter_substratum_apps">Substratum overlays</string>
-  <string name="menu_show_substratum">Show overlays</string>
-  <string name="menu_hide_substratum">Hide overlays</string>
+  <string name="filter_substratum_apps">Substratum - Überlagerungen</string>
+  <string name="menu_show_substratum">Zeige Überlagerungen</string>
+  <string name="menu_hide_substratum">Verberge Überlagerungen</string>
   <!-- App details: open play store link if app is user installed -->
   <string name="app_play_store">Google Play</string>
   <!-- Battery Saver Settings -->
@@ -86,7 +86,7 @@
   <string name="expanded_desktop_title">\"Erweiterter Desktop\" Optionen</string>
   <!-- Development Settings -->
   <!-- Dev Options Enabled by Default -->
-  <string name="show_dev_already_enabled">Nicht notwendig, Entwicklungseinstellungen sind standardmäßig aktiviert.</string>
+  <string name="show_dev_already_enabled">Kein Bedarf, Entwickleroptionen sind standardmäßig aktiviert.</string>
   <!-- ADB debugging notifications -->
   <string name="enable_adb_custom">Android Debugging</string>
   <string name="enable_adb_summary_custom">Android Debug Bridge (ADB) Schnittstelle aktivieren</string>
@@ -123,13 +123,15 @@
   <string name="nexus_version">PureNexus Version</string>
   <string name="nexus_version_default">Unbekannt</string>
   <!-- Vendor version -->
-  <string name="vendor_version">Anbieter - Version</string>
+  <string name="vendor_version">Anbieter-Version</string>
   <string name="vendor_version_default">Unbekannt</string>
   <!-- Build date -->
   <string name="build_date">Build Datum</string>
   <string name="build_date_default">2014-01-01-0000</string>
   <!-- Model Name -->
   <string name="model_name">Modellname</string>
+  <!-- Phone info shortcut -->
+  <string name="device_info_title">Phone info</string>
   <!-- Display Settings -->
   <!-- Doze pulse options -->
   <string name="summary_doze_enabled">Aktiv</string>
@@ -204,6 +206,17 @@
   <string name="app_notification_no_ongoing_on_keyguard_summary">Fortlaufende Benachrichtigungen von dieser App niemals auf dem Sperrbildschirm anzeigen</string>
   <!-- Volume settings - Volume adjustment sound -->
   <string name="volume_adjust_sounds_title">Änderungston</string>
+  <!-- Category title for Charging sounds -->
+  <string name="power_notifications_category_title">Charging sounds</string>
+  <!-- Sound settings, Charging sounds enable/disable, setting check box label -->
+  <string name="power_notifications_enable_title">Enable</string>
+  <string name="power_notifications_enable_summary">Play a sound when connecting or disconnecting the charger</string>
+  <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
+  <string name="power_notifications_vibrate_title">Vibrate</string>
+  <!-- Sound settings, Charging sounds ringtone selection, preference label -->
+  <string name="power_notifications_ringtone_title">Notification sound</string>
+  <!-- Sound settings, charging sounds label for ringtone == none -->
+  <string name="power_notifications_ringtone_silent">Silent</string>
   <!-- Security Settings -->
   <!-- App ops permissions -->
   <string name="app_ops_permissions_allowed">Erlaubt</string>
@@ -385,10 +398,10 @@
   <string name="select_contact">Kontakt auswählen</string>
   <!-- Storage settings -->
   <!-- Advanced storage settings -->
-  <string name="storage_advanced_titlebar">Advanced Storage</string>
-  <string name="storage_menu_advanced">Advanced</string>
+  <string name="storage_advanced_titlebar">Erweiterter Massenspeicher</string>
+  <string name="storage_menu_advanced">Erweiterte Einstellungen</string>
   <!-- USB data automatic unlock -->
-  <string name="usb_data_auto_unlock_title">Unlock USB data</string>
-  <string name="usb_data_auto_unlock_summary">Allow unlocked data access to your phone\'s storage through USB (MTP, PTP)</string>
-  <string name="usb_data_auto_unlock_warning_summary">Your device will establish unprotected connections, everytime you connect it to a PC. Secured lockscreens disable this option automatically.\n\nThis is still an experimental feature, use with caution.</string>
+  <string name="usb_data_auto_unlock_title">USB-Daten entsperren</string>
+  <string name="usb_data_auto_unlock_summary">Entsperrt Daten Zugriff auf Speicher des Telefons über USB (MTP, PTP)</string>
+  <string name="usb_data_auto_unlock_warning_summary">Das Gerät stellt ungeschützte Verbindungen her, jedesmal wenn Sie es an einen PC anschließen. Gesicherte Sperrbildschirmen deaktivieren diese Option automatisch.\n\nDies ist ein experimentelles Feature, Benutzung mit Vorsicht.</string>
 </resources>
