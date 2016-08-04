@@ -108,9 +108,9 @@
     <string name="vendor_version">Versión de imagen de proveedor</string>
     <string name="vendor_version_default">Desconocida</string>
     <!-- UBER GCC version info -->
-    <string name="uber_android">Android compilado con...</string>
+    <string name="uber_android">Herramientas de compilación de Android</string>
     <string name="uber_android_default">Desconocido</string>
-    <string name="uber_kernel">Kernel compilado con...</string>
+    <string name="uber_kernel">Herramientas de compilación del kernel</string>
     <string name="uber_kernel_default">Desconocido</string>
     <!-- UBER GCC build flags info -->
     <string name="uber_flags">Flags de compilación</string>
